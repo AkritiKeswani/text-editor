@@ -1,12 +1,12 @@
-# NAME - texteditor
+## NAME - texteditor
 
-# SYNOPSIS -
+## SYNOPSIS -
 man texteditor [filename]
 
-# DESCRIPTION -
+## DESCRIPTION -
 This is a text editor that displays the current line given a file, and thereby updates based on commands the user can give.
 
-# OPTIONS -
+## OPTIONS -
         p: prints contents of the file to standard output
         n: prefixes each line of the file with a line number while also printing to standard output
         d: deletes the current line and can apply to a range of line numbers
@@ -20,7 +20,7 @@ This is a text editor that displays the current line given a file, and thereby u
 	   |tr command followed by lower to upper-case test would complete that subb-process within the buffer or something such as a sed command could be executed for the purpose	      of replacing a string of characters   
 
 
-# VERSION - 
+## VERSION - 
 This is the third version of a texteditor.c file in which additional commands are added, demonstrating more functionalities which allow for searching (use case mentioned above) aswell as using the vertical bar option. 
 
 
