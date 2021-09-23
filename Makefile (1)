@@ -1,0 +1,9 @@
+shell = /bin/sh/
+
+cc = gcc
+flags = -o
+
+all: texteditor
+
+texteditor : texteditor.c
+	$(cc) $(flags) $@ texteditor.c
